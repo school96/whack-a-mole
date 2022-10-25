@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+img {
+    background-color: lightgreen;
+}
+
+#main {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    color: black;
+    font-family: Bahnschrift;
+    width: 100vw;
+    height: 100vh;
+    min-width: 519px;
+    user-select: none;
+}
+
+#score {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 15pt;
+    font-weight: normal;
+    color: white;
+    background-color: darkgreen;
+    border: 5px solid darkgreen;
+}
+
+#timer {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    font-size: 15pt;
+    font-weight: normal;
+    color: white;
+    background-color: darkgreen;
+    border: 5px solid darkgreen;
+}
+
+.molerow {
+    height: 86px;
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#r1 {
+    bottom: 25vh;
+    left: 0px;
+}
+
+#r2 {
+    bottom: calc(25vh + 150px);
+    left: 0px;
+}
+
+.divsplit {
+    width: 20px;
+}

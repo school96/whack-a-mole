@@ -1,0 +1,45 @@
+body {
+    margin: 0px;
+}
+
+#main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: lightskyblue;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-family: Bahnschrift;
+    flex-direction: column;
+    text-align: center;
+}
+
+#title {
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.menubutton {
+    font: 15pt Bahnschrift;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+
+.menubutton:focus {
+    outline: none;
+}
+
+.menubutton:hover {
+    background-color: rgb(6, 173, 173);
+}
+
+#divsplit {
+    height: 50px;
+    width: 10px;
+    background-color: transparent;
+}
